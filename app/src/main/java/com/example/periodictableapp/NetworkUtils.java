@@ -14,11 +14,9 @@ public class NetworkUtils {
     private static final String LOG_TAG = NetworkUtils.class.getSimpleName();
     private static final String ELEMENTS_URL = "https://periodic-table-elements-info.herokuapp.com/";
     private static final String ELEMENT_QUANTIDADE = "";
-    private static final String ELEMENT_METODO = "";
-    private static final String ELEMENT_PARAMETRO = "";
 
 
-    static String buscaElementos(String queryString, String metodo, String parametro) {
+    static String buscaElementos(String queryString) {
 
         HttpURLConnection urlConnection = null;
         BufferedReader reader = null;
@@ -27,8 +25,6 @@ public class NetworkUtils {
         try {
             Uri builtURI = Uri.parse(ELEMENTS_URL).buildUpon()
                     .appendQueryParameter(ELEMENT_QUANTIDADE, queryString)
-                    .appendQueryParameter(ELEMENT_METODO, metodo)
-                    .appendQueryParameter(ELEMENT_PARAMETRO, parametro)
                     .build();
 
             URL requestURL = new URL(builtURI.toString());

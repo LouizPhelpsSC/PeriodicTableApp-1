@@ -1,6 +1,8 @@
 package com.example.periodictableapp;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class Element {
     private int atomicNumber;
@@ -32,7 +34,60 @@ public class Element {
     public Element() {
     }
 
-
+//    public List<Element> getAllElements()
+//    {
+//        ArrayList<Element> elementList = new ArrayList<>();
+//        return elementList;
+//    }
+//
+//
+//    public List<Element> getElementsByBlock(String block)
+//    {
+//
+//    }
+//
+//    public List<Element> getElementsByState(String state)
+//    {
+//
+//    }
+//
+//    public Element getElementByAtomicName(String name)
+//    {
+//        Element element = new Element();
+//        return element;
+//    }
+//
+//    public Element getElementByAtomic(int atomicNumber)
+//    {
+//        Element element = new Element();
+//        return element;
+//    }
+//
+//    public Element getElementBySymbol(String symbol)
+//    {
+//        Element element = new Element();
+//        return element;
+//    }
+//
+//    public List<Element> getElementsByBodingType(String bondingType)
+//    {
+//
+//    }
+//
+//    public List<Element> getElementsByType(String type)
+//    {
+//
+//    }
+//
+//    public List<Element> getElementsByGroup(String group)
+//    {
+//
+//    }
+//
+//    public List<Element> getElementsByPeriod(String period)
+//    {
+//
+//    }
 
     // GETTERS AND SETTERS
     public int getAtomicNumber() {
