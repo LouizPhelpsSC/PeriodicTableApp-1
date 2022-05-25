@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:background="@drawable/view_menu"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Space
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/itemMenu_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            app:srcCompat="@drawable/ic_tabela_periodica_menu"
+            android:onClick="abrirHome"
+            tools:ignore="MissingConstraints" />
+
+        <Space
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/itemMenu_projeto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            app:srcCompat="@drawable/ic_listas_menu"
+            android:onClick="abrirListas"
+            tools:ignore="MissingConstraints" />
+
+        <Space
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/itemMenu_funcionario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            app:srcCompat="@drawable/ic_favoritos_menu"
+            android:onClick="abrirFavoritos"
+            tools:ignore="MissingConstraints" />
+
+        <Space
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/itemMenu_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            app:srcCompat="@drawable/ic_atomo_menu"
+            android:onClick="abrirDelivery"
+            tools:ignore="MissingConstraints" />
+
+        <Space
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
