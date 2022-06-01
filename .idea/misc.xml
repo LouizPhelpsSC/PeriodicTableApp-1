@@ -7,8 +7,12 @@
         <entry key="..\:/Users/3etimds/AndroidStudioProjects/PeriodicTableApp/app/src/main/res/drawable/input_border.xml" value="0.3405" />
         <entry key="..\:/Users/3etimds/AndroidStudioProjects/PeriodicTableApp/app/src/main/res/drawable/view_menu.xml" value="0.3405" />
         <entry key="..\:/Users/3etimds/AndroidStudioProjects/PeriodicTableApp/app/src/main/res/font/font.xml" value="0.3958333333333333" />
-        <entry key="..\:/Users/3etimds/AndroidStudioProjects/PeriodicTableApp/app/src/main/res/layout/activity_delivery_setup.xml" value="0.44314185228604924" />
+        <entry key="..\:/Users/3etimds/AndroidStudioProjects/PeriodicTableApp/app/src/main/res/layout/activity_delivery_answer.xml" value="0.33" />
+        <entry key="..\:/Users/3etimds/AndroidStudioProjects/PeriodicTableApp/app/src/main/res/layout/activity_delivery_setup.xml" value="0.33" />
+        <entry key="..\:/Users/3etimds/AndroidStudioProjects/PeriodicTableApp/app/src/main/res/layout/activity_element_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/3etimds/AndroidStudioProjects/PeriodicTableApp/app/src/main/res/layout/activity_elements_list.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/3etimds/AndroidStudioProjects/PeriodicTableApp/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/3etimds/AndroidStudioProjects/PeriodicTableApp/app/src/main/res/layout/element_item.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/3etimds/AndroidStudioProjects/PeriodicTableApp/app/src/main/res/layout/menu_inferior.xml" value="0.30952380952380953" />
       </map>
     </option>

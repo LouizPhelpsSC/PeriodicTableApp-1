@@ -1,4 +1,4 @@
-package com.example.periodictableapp;
+package com.example.periodictableapp.Activities;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -7,6 +7,9 @@ import androidx.loader.app.LoaderManager;
 import androidx.loader.content.Loader;
 
 import android.os.Bundle;
+
+import com.example.periodictableapp.LoadElements;
+import com.example.periodictableapp.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -11,5 +11,6 @@
     <color name="bg">#18191A</color>
     <color name="principal_color">#00CCCC</color>
     <color name="gray_color">#3A3B3C</color>
+    <color name="red_color">#DB2525</color>
 
 </resources>

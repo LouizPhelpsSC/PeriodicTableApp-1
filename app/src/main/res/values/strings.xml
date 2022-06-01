@@ -10,4 +10,13 @@
     <string name="state_province">State/Province</string>
     <string name="clean">Clean</string>
     <string name="confirm">Confirm</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="overview">Overview</string>
+    <string name="atomicnumber">Atomic number</string>
+    <string name="symbol">Symbol</string>
+    <string name="name">Name</string>
+    <string name="atomicmass">Atomic mass</string>
+    <string name="eletronicconfiguration">Eletronic configuration</string>
+    <string name="electronegativity">Electronegativity</string>
 </resources>

@@ -14,10 +14,19 @@
         android:theme="@style/Theme.PeriodicTableApp"
         tools:targetApi="31">
         <activity
-            android:name=".DeliverySetup"
+            android:name=".ElementDetails"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activities.ElementsList"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.DeliveryAnswer"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.DeliverySetup"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.MainActivity"
             android:exported="false" />
     </application>
 

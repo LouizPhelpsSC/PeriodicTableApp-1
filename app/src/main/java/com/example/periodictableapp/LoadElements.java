@@ -8,7 +8,7 @@ import androidx.loader.content.AsyncTaskLoader;
 public class LoadElements extends AsyncTaskLoader<String> {
     private String mQueryString;
 
-    LoadElements(Context context, String queryString) {
+    public LoadElements(Context context, String queryString) {
         super(context);
         mQueryString = queryString;
     }
