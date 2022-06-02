@@ -19,4 +19,20 @@
     <string name="atomicmass">Atomic mass</string>
     <string name="eletronicconfiguration">Eletronic configuration</string>
     <string name="electronegativity">Electronegativity</string>
+    <string name="atomiradius">Atomic radius</string>
+    <string name="ionradius">Ion radius</string>
+    <string name="vanderwaalsradius">Van Der Waals radius</string>
+    <string name="ionizationenergy">Ionization Energy</string>
+    <string name="electroaffinity">Electro affinity</string>
+    <string name="oxidationstate">Oxidantion state</string>
+    <string name="standardstate">Standard state</string>
+    <string name="bondingtype">Bonding type</string>
+    <string name="meltingpoint">Melting point</string>
+    <string name="boilingtype">Boiling type</string>
+    <string name="density">Density</string>
+    <string name="groupblock">Group Block</string>
+    <string name="yeardiscovered">Year Discovered</string>
+    <string name="block">Block</string>
+    <string name="period">Period</string>
+    <string name="group">Group</string>
 </resources>

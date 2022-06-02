@@ -10,13 +10,13 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingHorizontal="16dp"
         tools:ignore="MissingConstraints">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <LinearLayout
@@ -40,9 +40,14 @@
                     android:background="transparent"/>
             </LinearLayout>
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_weight="3"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:orientation="vertical">
 
                 <TextView
@@ -51,53 +56,579 @@
                     style="@style/ViewTitle"
                     android:text="@string/overview"/>
 
-                <TextView
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    style="@style/ViewTitle"
-                    android:text="@string/atomicnumber"
-                    android:textSize="15dp" />
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/atomicnumber"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
 
-                <TextView
-                    android:layout_width="wrap_content"
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    style="@style/ViewTitle"
-                    android:text="@string/symbol"
-                    android:textSize="15dp" />
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/symbol"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
 
-                <TextView
-                    android:layout_width="wrap_content"
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    style="@style/ViewTitle"
-                    android:text="@string/name"
-                    android:textSize="15dp" />
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/name"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
 
-                <TextView
-                    android:layout_width="wrap_content"
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    style="@style/ViewTitle"
-                    android:text="@string/atomicmass"
-                    android:textSize="15dp" />
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/atomicmass"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
 
-                <TextView
-                    android:layout_width="wrap_content"
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    style="@style/ViewTitle"
-                    android:text="@string/eletronicconfiguration"
-                    android:textSize="15dp" />
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/eletronicconfiguration"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
 
-                <TextView
-                    android:layout_width="wrap_content"
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    style="@style/ViewTitle"
-                    android:text="@string/electronegativity"
-                    android:textSize="15dp" />
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/electronegativity"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
 
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/atomiradius"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/ionradius"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/vanderwaalsradius"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/ionizationenergy"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/electroaffinity"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/oxidationstate"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/standardstate"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/bondingtype"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/meltingpoint"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/boilingtype"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/density"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/groupblock"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/yeardiscovered"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/block"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/period"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="@string/group"
+                        android:textFontWeight="500"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/ViewTitle"
+                        android:text="?"
+                        android:textFontWeight="100"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_weight="3"/>
+                
             </LinearLayout>
-
         </LinearLayout>
     </ScrollView>
 
